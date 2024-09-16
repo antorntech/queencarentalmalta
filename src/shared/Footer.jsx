@@ -5,7 +5,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <>
-      <div className="bg-black px-8">
+      <div className="bg-black px-8 py-12">
         <div className="max-w-screen-xl mx-auto py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
@@ -54,6 +54,18 @@ const Footer = () => {
                   <span className="text-white">Terms and Conditions</span>
                 </li>
               </ul>
+              <div className="flex items-center gap-3 mt-5">
+                <Link>
+                  <div className="group border-2 border-white hover:border-red-700 px-3 py-2 transition-all duration-500">
+                    <i class="fa-brands fa-facebook-f text-[20px] text-white group-hover:text-red-700 transition-all duration-500"></i>
+                  </div>
+                </Link>
+                <Link>
+                  <div className="group border-2 border-white hover:border-red-700 px-3 py-2 transition-all duration-500">
+                    <i class="fa-brands fa-whatsapp text-[20px] text-white group-hover:text-red-700 transition-all duration-500"></i>
+                  </div>
+                </Link>
+              </div>
             </div>
             <div>
               <div>
