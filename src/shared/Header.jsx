@@ -52,7 +52,7 @@ const Header = () => {
     },
   ];
   return (
-    <div className="w-full px-8 py-1 overflow-hidden">
+    <div className="w-full px-5 py-1 overflow-hidden">
       {/* desktop menu */}
       <div className="max-w-screen-xl mx-auto hidden lg:flex justify-between items-center">
         <div className="flex items-center gap-8">

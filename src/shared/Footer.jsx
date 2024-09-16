@@ -5,7 +5,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <>
-      <div className="bg-black px-8 py-12">
+      <div className="bg-black px-5 py-12">
         <div className="max-w-screen-xl mx-auto py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>

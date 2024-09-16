@@ -25,7 +25,7 @@ const Partners = () => {
 
   return (
     <div
-      className="bg-cover bg-center px-8 h-[90vh] md:h-[50vh]"
+      className="bg-cover bg-center px-5 h-[100vh] md:h-[50vh]"
       style={{ backgroundImage: `url('/images/partners-bg.png')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full relative">
