@@ -25,7 +25,7 @@ const Partners = () => {
 
   return (
     <div
-      className=" bg-cover bg-center  px-5 h-[50vh]"
+      className="bg-cover bg-center px-8 h-[90vh] md:h-[50vh]"
       style={{ backgroundImage: `url('/images/partners-bg.png')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full relative">
@@ -90,8 +90,8 @@ const Partners = () => {
                   timeFormat="h:mm aa"
                   timeIntervals={15}
                   dateFormat="dd/MM/yyyy h:mm aa"
-                  className="block w-full bg-gray-100 rounded-md p-3"
-                  placeholderText="dd/mm/yyyy hh:mm AM/PM"
+                  className="block w-full bg-gray-100 rounded-md p-3 md:p-4"
+                  placeholderText="dd/mm/yyyy"
                   required
                 />
               </div>

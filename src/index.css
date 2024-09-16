@@ -16,6 +16,10 @@ body {
 }
 
 /* Custom styles for the DatePicker */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
 .react-datepicker {
   font-family: "Arial", sans-serif;
   background-color: #f0f0f0; /* Light background */
