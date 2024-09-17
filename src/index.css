@@ -15,6 +15,10 @@ body {
   font-optical-sizing: auto;
 }
 
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 /* Custom styles for the DatePicker */
 .react-datepicker-wrapper {
   width: 100%;
@@ -143,7 +147,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .our-fleets {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
   .next-arrow {
     top: 30%;
