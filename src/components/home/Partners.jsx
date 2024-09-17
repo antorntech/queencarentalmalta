@@ -25,7 +25,7 @@ const Partners = () => {
 
   return (
     <div
-      className="bg-cover bg-center px-5 h-[100vh] md:h-[50vh]"
+      className="bg-cover bg-center px-5 h-[100vh] md:h-[65vh]"
       style={{ backgroundImage: `url('/images/partners-bg.png')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full relative">
@@ -143,36 +143,36 @@ const Partners = () => {
               <div className="w-full h-[2px] bg-[#d4d4d469]"></div>
               <div className="w-full h-[2px] bg-[#d4d4d469]"></div>
             </div>
-            <div className="grid grid-cols-3 gap-5 md:flex md:justify-center md:space-x-12 mt-5">
+            <div className="grid grid-cols-3 md:grid-cols-6 gap-5 mt-5">
               <img
                 src="/images/partners1.png"
                 alt="Nissan"
-                className="h-12 md:h-32 mx-auto"
+                className="h-12 md:h-32 lg:h-20 mx-auto"
               />
               <img
                 src="/images/partners2.png"
                 alt="Toyota"
-                className="h-12 md:h-32 mx-auto"
+                className="h-12 md:h-32 lg:h-20 mx-auto"
               />
               <img
                 src="/images/partners3.png"
                 alt="Kia"
-                className="h-12 md:h-32 mx-auto"
+                className="h-12 md:h-32 lg:h-20 mx-auto"
               />
               <img
                 src="/images/partners4.png"
                 alt="Hyundai"
-                className="h-12 md:h-32 mx-auto"
+                className="h-12 md:h-32 lg:h-20 mx-auto"
               />
               <img
                 src="/images/partners5.png"
                 alt="Citroën"
-                className="h-12 md:h-32 mx-auto"
+                className="h-12 md:h-32 lg:h-20 mx-auto"
               />
               <img
                 src="/images/partners6.png"
                 alt="Peugeot"
-                className="h-12 md:h-32 mx-auto"
+                className="h-12 md:h-32 lg:h-20 mx-auto"
               />
             </div>
           </div>
