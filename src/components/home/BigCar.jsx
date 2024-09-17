@@ -31,31 +31,31 @@ const BigCar = () => {
         <div className="max-w-screen-xl mx-auto px-5 h-full flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {/* Feature Card 1 */}
-            <div className="bg-white flex items-center p-5 rounded-md shadow-md">
+            <div className="bg-white flex items-center px-5 py-10 rounded-md custom-shadow">
               <img
                 src="/images/support1.png"
                 alt="Support Image"
-                className="mr-4"
+                className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
               <p className="text-xl text-red-700 font-bold">
                 Multilingual Support
               </p>
             </div>
             {/* Feature Card 2 */}
-            <div className="bg-white flex items-center p-5 rounded-md shadow-md">
+            <div className="bg-white flex items-center px-5 py-10 rounded-md custom-shadow">
               <img
                 src="/images/support2.png"
                 alt="Fleet Image"
-                className="mr-4"
+                className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
               <p className="text-xl text-red-700 font-bold">Diverse fleet</p>
             </div>
             {/* Feature Card 3 */}
-            <div className="bg-white flex items-center p-5 rounded-md shadow-md">
+            <div className="bg-white flex items-center px-5 py-10 rounded-md custom-shadow">
               <img
                 src="/images/support3.png"
                 alt="Customer Service Image"
-                className="mr-4"
+                className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
               <p className="text-xl text-red-700 font-bold">
                 24/7 customer service
