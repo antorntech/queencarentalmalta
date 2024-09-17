@@ -145,6 +145,18 @@ body {
   background-color: #000000b7;
 }
 
+.works-card {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 84%,
+    81% 84%,
+    70% 100%,
+    56% 84%,
+    0 84%
+  );
+}
+
 @media screen and (max-width: 768px) {
   .our-fleets {
     padding-top: 50px;
