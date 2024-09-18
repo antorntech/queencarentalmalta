@@ -63,8 +63,8 @@ const Header = () => {
                 to={item.path}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-red-700 text-[16px] font-semibold transition duration-300"
-                    : "text-black text-[16px] font-[500] hover:text-red-600 transition duration-300"
+                    ? "text-yellow-700 text-[16px] font-semibold transition duration-300"
+                    : "text-black text-[16px] font-[500] hover:text-yellow-600 transition duration-300"
                 }
               >
                 {item.label}
@@ -74,7 +74,12 @@ const Header = () => {
         </div>
         <div>
           <Link to="/">
-            <img src="/images/logo-dark.png" alt="" />
+            <img
+              src="/images/logo-dark.png"
+              alt="logo-dark.png"
+              width={250}
+              className="py-1"
+            />
           </Link>
         </div>
         <div className="flex items-center gap-8">
@@ -85,15 +90,15 @@ const Header = () => {
                 to={item.path}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-red-700 text-[16px] font-semibold transition duration-300"
-                    : "text-black text-[16px] font-[500] hover:text-red-600 transition duration-300"
+                    ? "text-yellow-700 text-[16px] font-semibold transition duration-300"
+                    : "text-black text-[16px] font-[500] hover:text-yellow-600 transition duration-300"
                 }
               >
                 {item.label}
               </NavLink>
             );
           })}
-          <button className="px-5 py-2 bg-gradient-to-l from-[#D00000] to-[#9D0208] text-white rounded-md shadow-lg">
+          <button className="px-5 py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
             Book Now
           </button>
         </div>
@@ -120,7 +125,7 @@ const Header = () => {
             </Link>
           </div>
           <div>
-            <button className="p-2 text-[14px] bg-gradient-to-l from-[#D00000] to-[#9D0208] text-white rounded-md shadow-lg">
+            <button className="p-2 text-[12px] bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
               Book Now
             </button>
           </div>
@@ -140,8 +145,8 @@ const Header = () => {
                 onClick={() => setMenuOpen(!menuOpen)}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-red-700 text-[16px] font-semibold transition duration-300"
-                    : "text-black text-[16px] font-[500] hover:text-red-600 transition duration-300"
+                    ? "text-yellow-700 text-[16px] font-semibold transition duration-300"
+                    : "text-black text-[16px] font-[500] hover:text-yellow-600 transition duration-300"
                 }
               >
                 {item.label}

@@ -25,7 +25,7 @@ const Partners = () => {
 
   return (
     <div
-      className="bg-cover bg-center px-5 h-[100vh] md:h-[65vh]"
+      className="bg-cover bg-center px-5 h-[100vh] md:h-[60vh]"
       style={{ backgroundImage: `url('/images/partners-bg.png')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full relative">
@@ -124,7 +124,7 @@ const Partners = () => {
               <div className="w-full">
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-l from-[#D00000] to-[#9D0208] text-white font-semibold px-6 py-4 mt-2 md:mt-8 rounded-lg hover:bg-red-700 transition duration-300"
+                  className="w-full bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white font-semibold px-6 py-4 mt-2 md:mt-8 rounded-lg hover:bg-red-700 transition duration-300"
                 >
                   Find a Car
                 </button>
@@ -134,8 +134,8 @@ const Partners = () => {
 
           {/* Partners Section */}
           <div className="text-center">
-            <button className="bg-white px-8 py-3 rounded-md my-10">
-              <p className="bg-white bg-gradient-to-r from-[#9D0208] via-[#9D0208] to-black text-xl inline-block text-transparent bg-clip-text font-semibold">
+            <button className="bg-white px-8 py-3 rounded-md my-5 md:my-10">
+              <p className="bg-white bg-gradient-to-r from-[#FBBB04] to-black text-xl inline-block text-transparent bg-clip-text font-semibold">
                 Long Term Lease
               </p>
             </button>
@@ -147,32 +147,32 @@ const Partners = () => {
               <img
                 src="/images/partners1.png"
                 alt="Nissan"
-                className="h-12 md:h-32 lg:h-20 mx-auto"
+                className="w-full h-full p-3"
               />
               <img
                 src="/images/partners2.png"
                 alt="Toyota"
-                className="h-12 md:h-32 lg:h-20 mx-auto"
+                className="w-full h-full p-3"
               />
               <img
                 src="/images/partners3.png"
                 alt="Kia"
-                className="h-12 md:h-32 lg:h-20 mx-auto"
+                className="w-full h-full p-3"
               />
               <img
                 src="/images/partners4.png"
                 alt="Hyundai"
-                className="h-12 md:h-32 lg:h-20 mx-auto"
+                className="w-full h-full p-3"
               />
               <img
                 src="/images/partners5.png"
                 alt="Citroën"
-                className="h-12 md:h-32 lg:h-20 mx-auto"
+                className="w-full h-full p-3"
               />
               <img
                 src="/images/partners6.png"
                 alt="Peugeot"
-                className="h-12 md:h-32 lg:h-20 mx-auto"
+                className="w-full h-full p-3"
               />
             </div>
           </div>

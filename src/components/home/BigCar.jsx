@@ -7,7 +7,7 @@ const BigCar = () => {
         {/* Headline Section */}
         <div className="w-full text-center">
           <p className="text-2xl md:text-5xl font-bold">Our Doors Are Always</p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#9D0208] via-[#9D0208] to-[#550204] inline-block text-transparent bg-clip-text">
+          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
             Open To Welcome You
           </p>
         </div>
@@ -27,37 +27,37 @@ const BigCar = () => {
       </div>
 
       {/* Features Section */}
-      <div className="bg-red-700 mt-28 md:mt-52 h-[80vh] md:h-[70vh] pt-0 lg:pt-[100px] w-full text-center">
+      <div className="bg-gradient-to-l from-[#FBBB04] to-[#daa003] mt-28 md:mt-52 h-[80vh] md:h-[70vh] pt-0 lg:pt-[100px] w-full text-center">
         <div className="max-w-screen-xl mx-auto px-5 h-full flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {/* Feature Card 1 */}
-            <div className="bg-white flex items-center px-5 py-10 rounded-md custom-shadow">
+            <div className="bg-white flex items-center px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
                 src="/images/support1.png"
                 alt="Support Image"
                 className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-red-700 font-bold">
+              <p className="text-xl text-[#FBBB04] font-bold">
                 Multilingual Support
               </p>
             </div>
             {/* Feature Card 2 */}
-            <div className="bg-white flex items-center px-5 py-10 rounded-md custom-shadow">
+            <div className="bg-white flex items-center px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
                 src="/images/support2.png"
                 alt="Fleet Image"
                 className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-red-700 font-bold">Diverse fleet</p>
+              <p className="text-xl text-[#FBBB04] font-bold">Diverse fleet</p>
             </div>
             {/* Feature Card 3 */}
-            <div className="bg-white flex items-center px-5 py-10 rounded-md custom-shadow">
+            <div className="bg-white flex items-center px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
                 src="/images/support3.png"
                 alt="Customer Service Image"
                 className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-red-700 font-bold">
+              <p className="text-xl text-[#FBBB04] font-bold">
                 24/7 customer service
               </p>
             </div>

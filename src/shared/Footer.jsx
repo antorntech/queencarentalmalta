@@ -17,7 +17,7 @@ const Footer = () => {
                 convenient, affordable, and enjoyable car rental experience.
               </p>
               <Link to="/">
-                <button className="px-4 py-3 text-[16px] bg-gradient-to-l from-[#D00000] to-[#9D0208] text-white rounded-md shadow-lg">
+                <button className="px-4 py-3 text-[16px] bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
                   Manage My Booking
                 </button>
               </Link>
@@ -81,9 +81,9 @@ const Footer = () => {
                   type="email"
                   name="email"
                   placeholder="Enter your email"
-                  className="w-full p-2 border-[3px] border-red-700 focus:outline-none focus:ring-[3px] focus:ring-transparent focus:border-[3px]"
+                  className="w-full p-2 border-[3px] border-[#FBBB04] focus:outline-none focus:ring-[3px] focus:ring-transparent focus:border-[3px]"
                 />
-                <button className="mt-3 uppercase px-4 py-3 text-[16px] bg-gradient-to-l from-[#D00000] to-[#9D0208] text-white w-full shadow-lg">
+                <button className="mt-3 uppercase px-4 py-3 text-[16px] bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white w-full shadow-lg">
                   Subscribe
                 </button>
               </div>
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-l from-[#D00000] to-[#9D0208]">
+      <div className="bg-gradient-to-l from-[#FBBB04] to-[#daa003]">
         <p className="text-white text-sm text-center p-5">
           © Queen Car Rental - {year} | All Right Reserved | Developed With BY{" "}
           <i class="fa fa-heart"></i> ANTOR & SANTO

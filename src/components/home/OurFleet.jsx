@@ -91,7 +91,7 @@ const OurFleet = () => {
       <div className="max-w-screen-xl mx-auto h-full flex justify-center items-center">
         <div className="w-full text-center">
           <p className="text-2xl md:text-5xl font-bold">Discover</p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#9D0208] via-[#9D0208] to-[#550204] inline-block text-transparent bg-clip-text">
+          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
             Our Fleet
           </p>
           <p className="mt-5 px-5">
@@ -111,7 +111,7 @@ const OurFleet = () => {
                 alt={fleet.category}
                 className="w-full md:w-4/5 mx-auto"
               />
-              <button className="my-10 px-5 py-2 bg-gradient-to-l from-[#D00000] to-[#9D0208] text-white rounded-md shadow-lg">
+              <button className="my-10 px-5 py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
                 {fleet.name}
               </button>
             </div>
