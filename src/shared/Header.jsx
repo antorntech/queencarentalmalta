@@ -107,7 +107,7 @@ const Header = () => {
       {/* mobile menu */}
       <div>
         <div className="py-1 flex items-center justify-between lg:hidden">
-          <div className="border-2 border-gray-400 px-4 py-1 rounded-md">
+          <div className="border-2 border-gray-400 px-2 rounded-md">
             <i
               className={`fa-solid transition-all ease-out duration-500 mt-1 ${
                 menuOpen ? "fa-xmark" : "fa-bars"
@@ -120,7 +120,7 @@ const Header = () => {
               <img
                 src="/images/logo-dark.png"
                 alt="logo-dark.png"
-                className="h-14"
+                className="h-10"
               />
             </Link>
           </div>
