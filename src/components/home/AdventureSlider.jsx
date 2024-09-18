@@ -107,7 +107,7 @@ const AdventureSlider = () => {
                 <img
                   src={fleet.image}
                   alt={fleet.category}
-                  className="w-full h-[350px]"
+                  className="w-full h-[300px] md:h-[350px]"
                 />
                 <div className="flex justify-between items-center mt-2">
                   <span className="text-xl md:text-2xl font-semibold">
