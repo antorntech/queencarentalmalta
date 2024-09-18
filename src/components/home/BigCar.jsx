@@ -35,7 +35,7 @@ const BigCar = () => {
               <img
                 src="/images/support1.png"
                 alt="Support Image"
-                className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
+                className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
               <p className="text-xl text-[#FBBB04] font-bold">
                 Multilingual Support
@@ -46,7 +46,7 @@ const BigCar = () => {
               <img
                 src="/images/support2.png"
                 alt="Fleet Image"
-                className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
+                className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
               <p className="text-xl text-[#FBBB04] font-bold">Diverse fleet</p>
             </div>
@@ -55,7 +55,7 @@ const BigCar = () => {
               <img
                 src="/images/support3.png"
                 alt="Customer Service Image"
-                className="mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
+                className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
               <p className="text-xl text-[#FBBB04] font-bold">
                 24/7 customer service

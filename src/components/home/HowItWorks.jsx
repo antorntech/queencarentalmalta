@@ -10,7 +10,7 @@ const HowItWorks = () => {
             and Enjoy
           </span>
         </p>
-        <p className="w-2/3 mx-auto mt-3">
+        <p className="w-full md:w-2/3 mx-auto mt-3">
           We understands that your time is valuable. We offer a hassle-free car
           rental experience that will allow you to focus on your trip to Malta.
           Book today and start planning your adventure.

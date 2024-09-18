@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="max-w-screen-xl mx-auto py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
-              <img src="/images/logo-light.png" alt="" />
+              <img src="/images/logo-light.png" alt="" width={250} />
               <p className="text-white mt-5 mb-8">
                 Queen Car Rental is a leading car rental company in Malta,
                 offering a wide range of vehicles for both short- and long-term
@@ -56,13 +56,13 @@ const Footer = () => {
               </ul>
               <div className="flex items-center gap-3 mt-5">
                 <Link>
-                  <div className="group border-2 border-white hover:border-red-700 px-3 py-2 transition-all duration-500">
-                    <i class="fa-brands fa-facebook-f text-[20px] text-white group-hover:text-red-700 transition-all duration-500"></i>
+                  <div className="group border-2 border-white hover:border-[#FBBB04] px-[15px] py-2 transition-all duration-500">
+                    <i class="fa-brands fa-facebook-f text-[20px] text-white group-hover:text-[#FBBB04] transition-all duration-500"></i>
                   </div>
                 </Link>
                 <Link>
-                  <div className="group border-2 border-white hover:border-red-700 px-3 py-2 transition-all duration-500">
-                    <i class="fa-brands fa-whatsapp text-[20px] text-white group-hover:text-red-700 transition-all duration-500"></i>
+                  <div className="group border-2 border-white hover:border-[#FBBB04] px-3 py-2 transition-all duration-500">
+                    <i class="fa-brands fa-whatsapp text-[20px] text-white group-hover:text-[#FBBB04] transition-all duration-500"></i>
                   </div>
                 </Link>
               </div>

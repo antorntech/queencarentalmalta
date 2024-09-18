@@ -134,7 +134,7 @@ const Partners = () => {
 
           {/* Partners Section */}
           <div className="text-center">
-            <button className="bg-white px-8 py-3 rounded-md my-5 md:my-10">
+            <button className="custom-shadow bg-white px-8 py-3 rounded-md my-5 md:my-10">
               <p className="bg-white bg-gradient-to-r from-[#FBBB04] to-black text-xl inline-block text-transparent bg-clip-text font-semibold">
                 Long Term Lease
               </p>
