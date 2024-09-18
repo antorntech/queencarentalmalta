@@ -3,7 +3,7 @@ import Hero from "../components/home/Hero";
 import Partners from "../components/home/Partners";
 import OurFleet from "../components/home/OurFleet";
 import BigCar from "../components/home/BigCar";
-import HowItWorks from "../components/home/howitworks";
+import WorksProcess from "../components/home/WorksProcess";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Partners />
       <OurFleet />
       <BigCar />
-      <HowItWorks />
+      <WorksProcess />
     </div>
   );
 };

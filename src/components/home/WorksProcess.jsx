@@ -1,6 +1,6 @@
 import React from "react";
 
-const HowItWorks = () => {
+const WorksProcess = () => {
   return (
     <div className="w-full px-5 py-[50px] md:py-[80px] lg:py-[100px]">
       <div className="w-full text-center">
@@ -97,4 +97,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default WorksProcess;
