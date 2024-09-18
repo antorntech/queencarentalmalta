@@ -207,6 +207,20 @@ body {
   );
 }
 
+.review-card {
+  color: #5a5a5a;
+  background-color: #dfdfdf;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 85%,
+    75% 86%,
+    75% 100%,
+    54% 86%,
+    0 86%
+  );
+}
+
 @media screen and (max-width: 768px) {
   .our-fleets {
     padding-top: 20px;

@@ -88,7 +88,7 @@ const AdventureSlider = () => {
   ];
 
   return (
-    <div className="w-full px-5 our-fleets">
+    <div className="w-full px-5 py-[80px] md:py-[100px] lg:py-[100px]">
       <div className="max-w-screen-xl mx-auto h-full flex justify-center items-center">
         <div className="w-full text-center">
           <p className="text-2xl md:text-5xl font-bold">
