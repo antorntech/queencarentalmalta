@@ -2,7 +2,7 @@ import React from "react";
 
 const WorksProcess = () => {
   return (
-    <div className="w-full px-5 py-[50px] md:py-[80px] lg:py-[100px]">
+    <div className="w-full px-5 pt-[20px] md:pt-[50px] lg:pt-[100px]">
       <div className="w-full text-center">
         <p className="text-2xl md:text-5xl font-bold">
           Rent a Car in Malta <br />
@@ -16,7 +16,7 @@ const WorksProcess = () => {
           Book today and start planning your adventure.
         </p>
       </div>
-      <div className="max-w-screen-xl mx-auto mt-16">
+      <div className="max-w-screen-xl mx-auto mt-8 md:mt-12 lg:mt-16">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
           <div className="relative h-[680px]">
             <div className="absolute top-0 works-card1 w-full h-[370px] z-50 p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">

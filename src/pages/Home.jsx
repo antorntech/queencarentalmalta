@@ -4,6 +4,7 @@ import Partners from "../components/home/Partners";
 import OurFleet from "../components/home/OurFleet";
 import BigCar from "../components/home/BigCar";
 import WorksProcess from "../components/home/WorksProcess";
+import AdventureSlider from "../components/home/AdventureSlider";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <OurFleet />
       <BigCar />
       <WorksProcess />
+      <AdventureSlider />
     </div>
   );
 };
