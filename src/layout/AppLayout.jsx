@@ -11,7 +11,7 @@ const AppLayout = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 50000);
   }, []);
   return (
     <>
