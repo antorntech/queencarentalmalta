@@ -16,80 +16,86 @@ const WorksProcess = () => {
           Book today and start planning your adventure.
         </p>
       </div>
-      <div className="max-w-screen-xl mx-auto mt-10">
-        <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          <div className="works-card h-[400px] p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
-            <h1 className="text-4xl font-semibold">01</h1>
-            <div className="w-12 h-2 bg-white"></div>
-            <p className="text-2xl lg:text-4xl mt-8 mb-3">
-              Choose a<br />{" "}
-              <span className="text-2xl lg:text-4xl font-bold">Car</span>
-            </p>
-            <img src="/images/works1.png" alt="" />
+      <div className="max-w-screen-xl mx-auto mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          <div className="relative h-[680px]">
+            <div className="absolute top-0 works-card1 w-full h-[370px] z-50 p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
+              <h1 className="text-4xl font-semibold">01</h1>
+              <div className="w-12 h-2 bg-white"></div>
+              <p className="text-2xl lg:text-4xl mt-8 mb-3">
+                Choose a<br />{" "}
+                <span className="text-2xl lg:text-4xl font-bold">Car</span>
+              </p>
+              <img src="/images/works1.png" alt="" />
+            </div>
+            <div className="group overflow-hidden h-[330px] relative mt-[350px]">
+              <img
+                src="https://queencarentalmalta.com/static/media/choose_car.6ef6cbbf08fd30841ca1.jpg"
+                alt=""
+                className="w-full h-full group-hover:scale-110 transition-all duration-300"
+              />
+              <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
+            </div>
           </div>
-          <div className="group overflow-hidden h-[337px] relative">
-            <img
-              src="https://queencarentalmalta.com/static/media/cards.4c9cb3cde8a29d5eb364.png"
-              alt=""
-              className="w-full h-full group-hover:scale-110 transition-all duration-300"
-            />
-            <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
+          <div className="relative h-[680px]">
+            <div className="group overflow-hidden h-[320px] relative mb-[340px]">
+              <img
+                src="https://queencarentalmalta.com/static/media/cards.4c9cb3cde8a29d5eb364.png"
+                alt=""
+                className="w-full h-full group-hover:scale-110 transition-all duration-300"
+              />
+              <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
+            </div>
+            <div className="absolute bottom-0 works-card2 w-full h-[380px] z-50 p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
+              <h1 className="text-4xl font-semibold mt-12">02</h1>
+              <div className="w-12 h-2 bg-white"></div>
+              <p className="text-2xl lg:text-4xl mt-8 mb-3">
+                Pay
+                <br />{" "}
+                <span className="text-2xl lg:text-4xl font-bold">Online</span>
+              </p>
+              <img src="/images/works2.png" alt="" />
+            </div>
           </div>
-          <div className="works-card h-[400px] p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
-            <h1 className="text-4xl font-semibold">03</h1>
-            <div className="w-12 h-2 bg-white"></div>
-            <p className="text-2xl lg:text-4xl mt-8 mb-3">
-              Pick up the
-              <br />{" "}
-              <span className="text-2xl lg:text-4xl font-bold">Vehicle</span>
-            </p>
-            <img src="/images/works3.png" alt="" />
+          <div className="relative h-[680px]">
+            <div className="absolute top-0 works-card1 w-full h-[370px] z-50 p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
+              <h1 className="text-4xl font-semibold">03</h1>
+              <div className="w-12 h-2 bg-white"></div>
+              <p className="text-2xl lg:text-4xl mt-8 mb-3">
+                Pick up the
+                <br />{" "}
+                <span className="text-2xl lg:text-4xl font-bold">Vehicle</span>
+              </p>
+              <img src="/images/works3.png" alt="" />
+            </div>
+            <div className="group overflow-hidden h-[330px] relative mt-[350px]">
+              <img
+                src="https://queencarentalmalta.com/static/media/Group1.9d07e886c0ced3d16980.png"
+                alt=""
+                className="w-full h-full group-hover:scale-110 transition-all duration-300"
+              />
+              <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
+            </div>
           </div>
-          <div className="group overflow-hidden h-[337px] relative">
-            <img
-              src="https://queencarentalmalta.com/static/media/Group.048cd21ce2ad4552bee1.png"
-              alt=""
-              className="w-full h-full group-hover:scale-110 transition-all duration-300"
-            />
-            <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
-          </div>
-        </div>
-        <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          <div className="group overflow-hidden h-[337px] relative">
-            <img
-              src="https://queencarentalmalta.com/static/media/cards.4c9cb3cde8a29d5eb364.png"
-              alt=""
-              className="w-full h-full group-hover:scale-110 transition-all duration-300"
-            />
-            <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
-          </div>
-          <div className="works-card h-[400px] p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
-            <h1 className="text-4xl font-semibold">02</h1>
-            <div className="w-12 h-2 bg-white"></div>
-            <p className="text-2xl lg:text-4xl mt-8 mb-3">
-              Pay
-              <br />{" "}
-              <span className="text-2xl lg:text-4xl font-bold">Online</span>
-            </p>
-            <img src="/images/works1.png" alt="" />
-          </div>
-          <div className="group overflow-hidden h-[337px] relative">
-            <img
-              src="https://queencarentalmalta.com/static/media/Group.048cd21ce2ad4552bee1.png"
-              alt=""
-              className="w-full h-full group-hover:scale-110 transition-all duration-300"
-            />
-            <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
-          </div>
-          <div className="works-card h-[400px] p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
-            <h1 className="text-4xl font-semibold">04</h1>
-            <div className="w-12 h-2 bg-white"></div>
-            <p className="text-2xl lg:text-4xl mt-8 mb-3">
-              Discover
-              <br />{" "}
-              <span className="text-2xl lg:text-4xl font-bold">Malta</span>
-            </p>
-            <img src="/images/works3.png" alt="" />
+          <div className="relative h-[680px]">
+            <div className="group overflow-hidden h-[320px] relative mb-[340px]">
+              <img
+                src="https://queencarentalmalta.com/static/media/Group.048cd21ce2ad4552bee1.png"
+                alt=""
+                className="w-full h-full group-hover:scale-110 transition-all duration-300"
+              />
+              <div className="w-full h-full absolute top-0 left-0 bg-black opacity-0 group-hover:opacity-50 transition-all duration-500"></div>
+            </div>
+            <div className="absolute bottom-0 works-card2 w-full h-[380px] z-50 p-5 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white shadow-lg">
+              <h1 className="text-4xl font-semibold mt-12">04</h1>
+              <div className="w-12 h-2 bg-white"></div>
+              <p className="text-2xl lg:text-4xl mt-8 mb-3">
+                Discover
+                <br />{" "}
+                <span className="text-2xl lg:text-4xl font-bold">Malta</span>
+              </p>
+              <img src="/images/works4.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
