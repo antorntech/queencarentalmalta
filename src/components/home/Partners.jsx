@@ -28,7 +28,7 @@ const Partners = () => {
       className="bg-cover bg-center px-5 h-[85vh] md:h-[60vh]"
       style={{ backgroundImage: `url('/images/partners-bg.png')` }}
     >
-      <div className="max-w-screen-xl mx-auto h-full relative">
+      <div className="max-w-screen-xl mx-auto h-full relative animate__animated animate__fadeInUp">
         <div className="absolute top-[-10%] left-1/2 transform -translate-x-1/2 w-full">
           {/* Form Section */}
           <div className="w-full bg-white p-5 md:p-10 py-6 md:py-12 rounded-lg shadow-lg">

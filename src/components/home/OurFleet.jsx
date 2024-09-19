@@ -90,10 +90,12 @@ const OurFleet = () => {
     <div className="w-full px-5 our-fleets">
       <div className="max-w-screen-xl mx-auto h-full flex justify-center items-center">
         <div className="w-full text-center">
-          <p className="text-2xl md:text-5xl font-bold">Discover</p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
-            Our Fleet
-          </p>
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <p className="text-2xl md:text-5xl font-bold">Discover</p>
+            <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
+              Our Fleet
+            </p>
+          </div>
           <p className="mt-5 px-5">
             From compact city cars to spacious SUV, we have a comprehensive
             selection of vehicles to cater to your individual preferences and

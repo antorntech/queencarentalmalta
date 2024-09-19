@@ -5,7 +5,11 @@ const BigCar = () => {
     <>
       <div className="relative pb-0 md:pb-[120px]">
         {/* Headline Section */}
-        <div className="w-full text-center">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="w-full text-center"
+        >
           <p className="text-2xl md:text-5xl font-bold">Our Doors Are Always</p>
           <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
             Open To Welcome You
@@ -20,6 +24,9 @@ const BigCar = () => {
                 src="/images/bigcar.png"
                 alt="Car Image"
                 className="mx-auto"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-easing="ease-in-sine"
               />
             </div>
           </div>
@@ -33,6 +40,10 @@ const BigCar = () => {
             {/* Feature Card 1 */}
             <div className="bg-white flex items-center px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="500"
+                data-aos-duration="1000"
                 src="/images/support1.png"
                 alt="Support Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
@@ -44,6 +55,10 @@ const BigCar = () => {
             {/* Feature Card 2 */}
             <div className="bg-white flex items-center px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="500"
+                data-aos-duration="1000"
                 src="/images/support2.png"
                 alt="Fleet Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
@@ -53,6 +68,10 @@ const BigCar = () => {
             {/* Feature Card 3 */}
             <div className="bg-white flex items-center px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="500"
+                data-aos-duration="1000"
                 src="/images/support3.png"
                 alt="Customer Service Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"

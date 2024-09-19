@@ -86,22 +86,44 @@ const CustomerSay = () => {
       <div className="max-w-screen-xl mx-auto h-full">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="w-full">
-            <p className="text-[#FBBB04] text-2xl">Our testimonials</p>
-            <p className="text-2xl md:text-5xl font-bold">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              className="text-[#FBBB04] text-2xl"
+            >
+              Our testimonials
+            </p>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              className="text-2xl md:text-5xl font-bold"
+            >
               What They're Talking
             </p>
-            <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+              className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text"
+            >
               About Queen
             </p>
           </div>
           <div>
-            <p>
+            <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
               Discover the Rave Reviews for Crown Auto Services - Unveiling the
               Praise!
             </p>
           </div>
         </div>
-        <div className="mt-5 md:mt-12">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-duration="1000"
+          className="mt-5 md:mt-12"
+        >
           <Slider {...settings}>
             {reviews.map((review, index) => (
               <div key={index} className="text-center">

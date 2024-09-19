@@ -14,13 +14,28 @@ const PremiumCarRent = () => {
         
         transform -translate-y-1/2"
         >
-          <h4 className="text-sm md:text-2xl font-bold text-white">
+          <h4
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            className="text-sm md:text-2xl font-bold text-white"
+          >
             Faster, easier access to car rental services
           </h4>
-          <h1 className="text-white text-xl md:text-5xl lg:text-7xl font-bold">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            className="text-white text-xl md:text-5xl lg:text-7xl font-bold"
+          >
             Premium Car Rental
           </h1>
-          <button className="mt-3 p-2 md:px-5 md:py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
+          <button
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            className="mt-3 p-2 md:px-5 md:py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
+          >
             Let's Ride With Us
           </button>
         </div>

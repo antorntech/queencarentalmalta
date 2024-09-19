@@ -7,7 +7,11 @@ const GroupCount = () => {
       style={{ backgroundImage: `url('/images/group-count.jpg')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full flex flex-col justify-center gap-8">
-        <div className="flex items-center gap-5">
+        <div
+          data-aos="flip-up"
+          data-aos-delay="500"
+          className="flex items-center gap-5"
+        >
           <div>
             <img src="/images/count1.png" alt="count1" />
           </div>
@@ -18,7 +22,11 @@ const GroupCount = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-5">
+        <div
+          data-aos="flip-up"
+          data-aos-delay="600"
+          className="flex items-center gap-5"
+        >
           <div>
             <img src="/images/count2.png" alt="count2" />
           </div>
@@ -29,7 +37,11 @@ const GroupCount = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-5">
+        <div
+          data-aos="flip-up"
+          data-aos-delay="700"
+          className="flex items-center gap-5"
+        >
           <div>
             <img src="/images/count3.png" alt="count3" />
           </div>
@@ -38,7 +50,11 @@ const GroupCount = () => {
             <p className="text-white text-xl font-semibold">Years of Service</p>
           </div>
         </div>
-        <div className="flex items-center gap-5">
+        <div
+          data-aos="flip-up"
+          data-aos-delay="800"
+          className="flex items-center gap-5"
+        >
           <div>
             <img src="/images/count4.png" alt="count4" />
           </div>

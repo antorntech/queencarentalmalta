@@ -6,20 +6,41 @@ const GroupService = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-5">
           <div className="w-full md:w-1/2">
-            <img src="/images/group-service.png" alt="" />
+            <img
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-easing="ease-in-sine"
+              src="/images/group-service.png"
+              alt=""
+            />
           </div>
           <div className="w-full md:w-1/2">
-            <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-slate-950">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-easing="ease-in-sine"
+              className="text-2xl md:text-4xl lg:text-6xl font-bold text-slate-950"
+            >
               Services with a Wide Range of Cars
             </h1>
-            <p className="my-5 text-gray-500">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-sine"
+              className="my-5 text-gray-500"
+            >
               We believe that the best way to explore the island is by car, and
               we offer a variety of vehicles to suit all budgets and needs.
               Whether you are looking for a small car for city driving or a
               larger vehicle for exploring the countryside, we have the perfect
               car for you.
             </p>
-            <div className="w-full">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-easing="ease-in-sine"
+              className="w-full"
+            >
               <div className="flex items-center gap-5 w-full">
                 <div className="py-1 border-b-2 border-gray-300 w-full">
                   <span className="text-lg font-semibold">
@@ -46,6 +67,9 @@ const GroupService = () => {
               </div>
             </div>
             <button
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-easing="ease-in-sine"
               type="submit"
               className="bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white font-semibold px-6 py-4 mt-5 md:mt-8 rounded-lg transition duration-300"
             >

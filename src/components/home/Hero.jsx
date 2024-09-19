@@ -10,10 +10,10 @@ const Hero = () => {
       />
       <div className="max-w-screen-xl mx-auto h-full flex justify-center items-center">
         <div className="w-full text-center">
-          <p className="text-white uppercase text-sm md:text-[26px] mb-0 md:mb-10">
+          <p className="text-white uppercase text-sm md:text-[26px] mb-0 md:mb-10 animate__animated animate__fadeInUp">
             Rent the best car at lowest price
           </p>
-          <h1 className="text-3xl md:text-[120px] font-bold text-white py-2">
+          <h1 className="text-3xl md:text-[120px] font-bold text-white py-2 animate__animated animate__fadeInUp">
             Queen Car Rental
           </h1>
         </div>
