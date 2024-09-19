@@ -109,7 +109,7 @@ const CustomerSay = () => {
                   <div className="bg-white w-[75px] h-[75px] rounded-full absolute top-[10px] left-1/2 transform translate-x-[-50%] z-50">
                     <img src="/images/quote.png" alt="quote.png" />
                   </div>
-                  <div className="review-card p-12 flex flex-col items-center">
+                  <div className="review-card p-5 md:p-12 flex flex-col items-center">
                     <p className="text-lg pt-5">{review.comments}</p>
                     <div className="flex items-center gap-2 pt-5 pb-12">
                       <i class="fa-solid fa-star text-[#FBBB04]"></i>
