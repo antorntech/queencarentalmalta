@@ -9,7 +9,7 @@ const Header = () => {
       path: "/aboutus",
     },
     {
-      label: "Discover Malta",
+      label: "Discover Automate",
       path: "/discover",
     },
     {
@@ -35,7 +35,7 @@ const Header = () => {
       path: "/aboutus",
     },
     {
-      label: "Discover Malta",
+      label: "Discover Automate",
       path: "/discover",
     },
     {
