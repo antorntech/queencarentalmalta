@@ -4,6 +4,7 @@ import PremiumCarRent from "../components/home/PremiumCarRent";
 import AdventureSlider from "../components/home/AdventureSlider";
 import DiscoverSectionTwo from "../components/discover/DiscoverSectionTwo";
 import DiscoverSectionThree from "../components/discover/DiscoverSectionThree";
+import Faq from "../components/faq/Faq";
 
 const Discover = () => {
   return (
@@ -15,6 +16,7 @@ const Discover = () => {
       <AdventureSlider />
       <DiscoverSectionTwo />
       <DiscoverSectionThree />
+      <Faq />
       <PremiumCarRent />
     </>
   );
