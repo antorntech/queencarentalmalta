@@ -12,9 +12,9 @@ const PageHeader = ({ title, subtitle, banner }) => {
     >
       <div className="w-full h-full flex flex-col items-center justify-center">
         {subtitle ? (
-          <h1 className="mb-2 text-white text-xl lg:text-3xl font-bold animate__animated animate__fadeInUp">
+          <p className="mb-2 text-center text-white text-md lg:text-3xl font-bold animate__animated animate__fadeInUp">
             {subtitle}
-          </h1>
+          </p>
         ) : null}
         <h1 className="text-white text-4xl lg:text-8xl font-bold animate__animated animate__fadeInUp">
           {title}
