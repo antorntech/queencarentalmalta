@@ -11,7 +11,9 @@ const PageHeader = ({ title, banner }) => {
       }}
     >
       <div className="w-full h-full flex flex-col items-center justify-center">
-        <h1 className="text-white text-4xl lg:text-8xl font-bold">{title}</h1>
+        <h1 className="text-white text-4xl lg:text-8xl font-bold animate__animated animate__fadeInUp">
+          {title}
+        </h1>
         <img
           className="w-1/3 animate__animated animate__fadeInUp"
           src="/images/underline.png"

@@ -17,7 +17,6 @@ const PremiumCarRent = () => {
           <h4
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-anchor-placement="top-center"
             className="text-sm md:text-2xl font-bold text-white"
           >
             Faster, easier access to car rental services
@@ -25,7 +24,6 @@ const PremiumCarRent = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-anchor-placement="top-center"
             className="text-white text-xl md:text-5xl lg:text-7xl font-bold"
           >
             Premium Car Rental
@@ -33,7 +31,6 @@ const PremiumCarRent = () => {
           <button
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-anchor-placement="top-center"
             className="mt-3 px-2 py-1 md:px-5 md:py-3 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
           >
             Let's Ride With Us
