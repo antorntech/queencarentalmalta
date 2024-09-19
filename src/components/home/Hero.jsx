@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative px-5 py-2 bg-[url('/images/hero-bg.png')] bg-no-repeat bg-cover bg-bottom h-[40vh] md:h-[80vh] overflow-hidden">
       <img
-        className="absolute bottom-[35%] right-[5%] md:bottom-[31%] md:right-[19%] w-1/2 md:w-auto"
+        className="absolute bottom-[35%] right-[5%] md:bottom-[31%] md:right-[19%] w-1/2 md:w-auto animate__animated animate__fadeInUp"
         src="/images/underline.png"
         alt=""
       />

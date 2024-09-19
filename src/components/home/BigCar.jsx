@@ -25,7 +25,7 @@ const BigCar = () => {
                 alt="Car Image"
                 className="mx-auto"
                 data-aos="fade-left"
-                data-aos-delay="300"
+                data-aos-delay="500"
                 data-aos-easing="ease-in-sine"
               />
             </div>

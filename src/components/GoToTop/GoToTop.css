@@ -19,12 +19,12 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(225deg, #fff 0%, #fff 100%);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(59, 59, 59, 0.589) 0px 8px 24px;
 }
 
 .top-btn--icon {
   font-size: 25px;
-  color: #000;
+  color: #fbbb04;
   animation: gototop 1.2s linear infinite alternate-reverse;
 }
 
