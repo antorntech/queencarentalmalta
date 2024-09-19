@@ -22,6 +22,7 @@ const Home = () => {
       <GroupService />
       <GroupCount />
       <CustomerSay />
+      <PremiumCarRent />
     </div>
   );
 };

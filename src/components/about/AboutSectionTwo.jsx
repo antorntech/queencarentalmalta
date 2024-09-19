@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSectionTwo = () => {
   return (
-    <div className="w-full px-5 py-[20px] md:py-[50px] lg:py-[100px]">
+    <div className="w-full px-5 pb-[20px] md:pb-[50px] lg:pb-[100px] overflow-hidden">
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="w-full md:w-1/2">

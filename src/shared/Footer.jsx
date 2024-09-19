@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PremiumCarRent from "../components/home/PremiumCarRent";
 
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <>
-      <PremiumCarRent />
       <div className="bg-black px-5 py-12">
         <div className="max-w-screen-xl mx-auto py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

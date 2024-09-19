@@ -6,6 +6,7 @@ import AboutSectionThree from "../components/about/AboutSectionThree";
 import WorksProcess from "../components/home/WorksProcess";
 import GroupCount from "../components/home/GroupCount";
 import CustomerSay from "../components/home/CustomerSay";
+import PremiumCarRent from "../components/home/PremiumCarRent";
 
 const AboutUs = () => {
   return (
@@ -18,6 +19,7 @@ const AboutUs = () => {
       <div className="pt-[50px] md:pt-[80px] lg:pt-[100px]"></div>
       <GroupCount />
       <CustomerSay />
+      <PremiumCarRent />
     </>
   );
 };
