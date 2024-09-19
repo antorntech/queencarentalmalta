@@ -46,7 +46,7 @@ const LongTerm = () => {
         </div>
       </div>
       <div
-        className="bg-cover bg-center px-5 py-[80px] md:py-[100px]"
+        className="bg-cover bg-center px-5 py-[50px] md:py-[100px]"
         style={{ backgroundImage: `url('/images/longcontact-bg.png')` }}
       >
         <div className="max-w-screen-xl mx-auto h-full flex justify-end">
@@ -79,10 +79,12 @@ const LongTerm = () => {
                 <i class="fa-solid fa-envelope text-5xl"></i>
               </div>
               <div>
-                <p className="text-[#fbbb04] text-xl md:text-3xl font-bold pb-1">
+                <p className="text-[#fbbb04] text-2xl md:text-3xl font-bold pb-1">
                   Send us a message
                 </p>
-                <p className="text-gray-600 text-2xl">info@automateplus.com</p>
+                <p className="text-white md:text-gray-600 text-2xl">
+                  info@automateplus.com
+                </p>
               </div>
             </div>
             <div
@@ -95,10 +97,12 @@ const LongTerm = () => {
                 <i class="fa-solid fa-phone text-5xl"></i>
               </div>
               <div>
-                <p className="text-[#fbbb04] text-xl md:text-3xl font-bold pb-1">
+                <p className="text-[#fbbb04] text-2xl md:text-3xl font-bold pb-1">
                   Setup a call
                 </p>
-                <p className="text-gray-600 text-2xl">+35699206826</p>
+                <p className="text-white md:text-gray-600 text-2xl">
+                  +35699206826
+                </p>
               </div>
             </div>
             <div
