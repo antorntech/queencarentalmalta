@@ -18,6 +18,7 @@ const PremiumCarRent = () => {
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="1000"
+            data-aos-anchor-placement="top-center"
             className="text-sm md:text-2xl font-bold text-white"
           >
             Faster, easier access to car rental services
@@ -26,6 +27,7 @@ const PremiumCarRent = () => {
             data-aos="fade-up"
             data-aos-delay="400"
             data-aos-duration="1000"
+            data-aos-anchor-placement="top-center"
             className="text-white text-xl md:text-5xl lg:text-7xl font-bold"
           >
             Premium Car Rental
@@ -34,7 +36,8 @@ const PremiumCarRent = () => {
             data-aos="fade-up"
             data-aos-delay="500"
             data-aos-duration="1000"
-            className="mt-3 p-2 md:px-5 md:py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
+            data-aos-anchor-placement="top-center"
+            className="mt-3 px-2 py-1 md:px-5 md:py-3 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
           >
             Let's Ride With Us
           </button>
