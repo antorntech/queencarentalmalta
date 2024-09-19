@@ -30,14 +30,18 @@ const AboutSectionThree = () => {
           >
             <div>
               <h2 className="text-6xl font-bold text-white mb-2">01</h2>
-              <img src="/images/about-timer.png" alt="" />
+              <img
+                src="/images/about-timer.png"
+                alt=""
+                className="w-[100px] md:w-full"
+              />
             </div>
-            <div className="border-[1px] border-[#FBBB04] p-5">
+            <div className="border-[1px] border-[#FBBB04] p-3 md:p-5">
               <h2
                 data-aos="fade-up"
                 data-aos-delay="900"
                 data-aos-easing="ease-in-sine"
-                className="text-3xl text-white"
+                className="text-xl md:text-3xl text-white"
               >
                 Quick Access <br /> Rentals
               </h2>
@@ -51,14 +55,18 @@ const AboutSectionThree = () => {
           >
             <div>
               <h2 className="text-6xl font-bold text-white mb-2">02</h2>
-              <img src="/images/about-user.png" alt="" />
+              <img
+                src="/images/about-user.png"
+                alt=""
+                className="w-[100px] md:w-full"
+              />
             </div>
-            <div className="border-[1px] border-[#FBBB04] p-5">
+            <div className="border-[1px] border-[#FBBB04] p-3 md:p-5">
               <h2
                 data-aos="fade-up"
                 data-aos-delay="1000"
                 data-aos-easing="ease-in-sine"
-                className="text-3xl text-white"
+                className="text-xl md:text-3xl text-white"
               >
                 Professional <br /> Service
               </h2>
@@ -74,14 +82,18 @@ const AboutSectionThree = () => {
           >
             <div>
               <h2 className="text-6xl font-bold text-white mb-2">03</h2>
-              <img src="/images/about-call.png" alt="" />
+              <img
+                src="/images/about-call.png"
+                alt=""
+                className="w-[100px] md:w-full"
+              />
             </div>
-            <div className="border-[1px] border-[#FBBB04] p-5">
+            <div className="border-[1px] border-[#FBBB04] p-3 md:p-5">
               <h2
                 data-aos="fade-up"
                 data-aos-delay="1100"
                 data-aos-easing="ease-in-sine"
-                className="text-3xl text-white"
+                className="text-xl md:text-3xl text-white"
               >
                 Multilingual
                 <br /> Support
@@ -96,14 +108,18 @@ const AboutSectionThree = () => {
           >
             <div>
               <h2 className="text-6xl font-bold text-white mb-2">04</h2>
-              <img src="/images/about-car.png" alt="" />
+              <img
+                src="/images/about-car.png"
+                alt=""
+                className="w-[100px] md:w-full"
+              />
             </div>
-            <div className="border-[1px] border-[#FBBB04] p-5">
+            <div className="border-[1px] border-[#FBBB04] p-3 md:p-5">
               <h2
                 data-aos="fade-up"
                 data-aos-delay="1200"
                 data-aos-easing="ease-in-sine"
-                className="text-3xl text-white"
+                className="text-xl md:text-3xl text-white"
               >
                 Diverse For
                 <br /> Traveler
