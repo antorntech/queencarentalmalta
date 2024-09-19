@@ -1,6 +1,6 @@
 import React from "react";
 
-const PageHeader = ({ title, banner }) => {
+const PageHeader = ({ title, subtitle, banner }) => {
   return (
     <div
       className="w-full h-[25vh] md:[40vh] lg:h-[70vh] flex justify-center items-center"
@@ -11,6 +11,11 @@ const PageHeader = ({ title, banner }) => {
       }}
     >
       <div className="w-full h-full flex flex-col items-center justify-center">
+        {subtitle ? (
+          <h1 className="mb-2 text-white text-xl lg:text-3xl font-bold animate__animated animate__fadeInUp">
+            {subtitle}
+          </h1>
+        ) : null}
         <h1 className="text-white text-4xl lg:text-8xl font-bold animate__animated animate__fadeInUp">
           {title}
         </h1>
