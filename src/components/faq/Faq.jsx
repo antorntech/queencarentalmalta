@@ -31,8 +31,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="w-full px-5 py-[20px] md:py-[50px] lg:py-[100px] overflow-hidden">
-      <div className="max-w-screen-xl mx-auto px-4 py-8">
+    <div className="w-full px-5 overflow-hidden">
+      <div className="max-w-screen-xl mx-auto py-8">
         <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
           <p className="text-2xl md:text-5xl font-bold"> Frequently Asked</p>
           <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
@@ -50,7 +50,7 @@ const FAQ = () => {
                 className="w-full text-left flex justify-between items-center py-4 focus:outline-none"
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="text-xl font-semibold text-gray-900">
+                <span className="text-lg md:text-xl font-semibold text-gray-900">
                   {faq.question}
                 </span>
                 <svg
@@ -77,7 +77,7 @@ const FAQ = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="pl-2 pr-4 py-2 text-lg text-gray-700">
+                <p className="pl-2 pr-4 py-2 text-md md:text-lg text-gray-700">
                   {faq.answer}
                 </p>
               </div>

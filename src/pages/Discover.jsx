@@ -16,7 +16,10 @@ const Discover = () => {
       <AdventureSlider />
       <DiscoverSectionTwo />
       <DiscoverSectionThree />
-      <Faq />
+      <div className="py-[20px] md:py-[50px] lg:py-[100px]">
+        <Faq />
+      </div>
+
       <PremiumCarRent />
     </>
   );

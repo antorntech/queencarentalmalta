@@ -48,7 +48,7 @@ const LongTermForm = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-8 px-4 flex flex-col md:flex-row bg-white custom-shadow rounded-lg">
-      <div className="flex-1 p-6">
+      <div className="flex-1 md:p-6">
         <div className="flex flex-col justify-center gap-5 mb-4">
           <div className="w-20 h-20 p-5 bg-gray-200 rounded-full flex justify-center items-center">
             <lord-icon
@@ -89,7 +89,7 @@ const LongTermForm = () => {
         </div>
       </div>
 
-      <div className="flex-1 p-6">
+      <div className="flex-1 mt-8 md:mt-0 md:p-6">
         <form
           onSubmit={handleSubmit}
           className="grid grid-cols-1 md:grid-cols-2 gap-6"
