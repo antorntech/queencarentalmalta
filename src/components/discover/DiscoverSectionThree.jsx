@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DiscoverSectionThree = () => {
   return (
@@ -11,10 +12,13 @@ const DiscoverSectionThree = () => {
               alt=""
               className="w-full object-contain"
             />
-            <button className="absolute -bottom-8 -left-12 flex items-center gap-3 bg-white px-8 py-3 rounded-md">
+            <Link
+              to="/fleet"
+              className="absolute -bottom-8 -left-12 flex items-center gap-3 bg-white px-8 py-3 rounded-md"
+            >
               <img src="/images/car-icon.png" alt="" className="size-12" />
               <span className="text-2xl font-semibold"> Rent A Car</span>
-            </button>
+            </Link>
           </div>
           <div className="w-full md:w-2/3">
             <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
@@ -58,10 +62,13 @@ const DiscoverSectionThree = () => {
               alt=""
               className="w-full object-contain"
             />
-            <button className="absolute -bottom-8 -left-12 flex items-center gap-3 bg-white px-8 py-3 rounded-md">
+            <Link
+              to="/"
+              className="absolute -bottom-8 -left-12 flex items-center gap-3 bg-white px-8 py-3 rounded-md"
+            >
               <img src="/images/fly-icon.png" alt="" className="size-12" />
               <span className="text-2xl font-semibold"> Visit Automate</span>
-            </button>
+            </Link>
           </div>
         </div>
         <div className="mt-14 md:mt-8 lg:mt-12">

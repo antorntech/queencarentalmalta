@@ -98,9 +98,12 @@ const Header = () => {
               </NavLink>
             );
           })}
-          <button className="px-5 py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
+          <Link
+            to="/fleet"
+            className="px-5 py-2 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
+          >
             Book Now
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -125,9 +128,12 @@ const Header = () => {
             </Link>
           </div>
           <div>
-            <button className="p-2 text-[12px] bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg">
+            <Link
+              to="/fleet"
+              className="p-2 text-[12px] bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
+            >
               Book Now
-            </button>
+            </Link>
           </div>
         </div>
 

@@ -4,6 +4,7 @@ import AppRoutes from "../routes/AppRoutes";
 import Loader from "../loaders/Loader";
 import GoToTop from "../components/GoToTop/GoToTop";
 import Footer from "../shared/Footer";
+import ScrlTopOfPage from "../components/ScrlTopOfPage/ScrlTopOfPage";
 
 const AppLayout = () => {
   const [isLoading, setIsLoading] = React.useState(true);
@@ -22,6 +23,7 @@ const AppLayout = () => {
           <GoToTop />
           <Header />
           <main>
+            <ScrlTopOfPage />
             <AppRoutes />
           </main>
           <Footer />

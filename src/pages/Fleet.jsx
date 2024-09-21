@@ -156,7 +156,7 @@ const Fleet = () => {
   return (
     <div className="p-5 bg-[#F1F1F1]">
       <div className="grid grid-cols-1 md:grid-cols-8 gap-5">
-        <div className="w-full md:col-span-2">
+        <div className="w-full md:col-span-2 order-2 md:order-1">
           <div className="bg-white p-6 rounded-3xl shadow-md w-full">
             <div className="flex justify-between items-center mb-6">
               <h3 className="font-semibold text-xl">Filters</h3>
@@ -257,9 +257,9 @@ const Fleet = () => {
             </button>
           </div>
         </div>
-        <div className="w-full md:col-span-6 md:col-start-3">
+        <div className="w-full md:col-span-6 md:col-start-3 order-1 md:order-2">
           <div
-            className="w-full h-[25vh] md:[40vh] lg:h-[50vh] flex justify-center items-center rounded-3xl"
+            className="w-full h-[25vh] md:[40vh] lg:h-[65vh] flex justify-center items-center rounded-3xl"
             style={{
               backgroundImage: `url('/images/hero-bg.png')`,
               backgroundSize: "cover",
@@ -267,20 +267,20 @@ const Fleet = () => {
             }}
           >
             <div className="w-full h-full flex flex-col items-center justify-center">
-              <p className="mb-2 text-center text-white text-md lg:text-xl font-bold animate__animated animate__fadeInUp">
+              <p className="mb-0 lg:mb-2 text-center text-white text-[12px] lg:text-xl font-bold animate__animated animate__fadeInUp">
                 BOOK THE BEST CAR AT THE LOWEST PRICE
               </p>
               <h1 className="text-white text-3xl lg:text-6xl font-bold animate__animated animate__fadeInUp">
                 Discover our Fleet
               </h1>
               <img
-                className="w-1/3 mt-3 animate__animated animate__fadeInUp"
+                className="w-2/3 md:w-1/3 mt-1 md:mt-3 animate__animated animate__fadeInUp"
                 src="/images/underline.png"
                 alt=""
               />
             </div>
           </div>
-          <div className="w-full p-5 md:p-10 py-6 md:py-12 rounded-lg">
+          <div className="w-full p-5 md:p-10 rounded-lg">
             <form
               onSubmit={handleSubmit}
               className="w-full flex flex-col md:flex-row items-center gap-4 justify-between"
@@ -380,6 +380,11 @@ const Fleet = () => {
               </div>
             </form>
           </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-8 gap-5">
+        <div className="w-full md:col-span-2 order-2 md:order-1"></div>
+        <div className="w-full md:col-span-6 md:col-start-3 order-1 md:order-2">
           {/* Cars Display Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
             {filteredCars.map((car) => (

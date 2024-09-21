@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DiscoverSectionTwo = () => {
   return (
@@ -29,9 +30,12 @@ const DiscoverSectionTwo = () => {
                 journey, we experience life in different ways. We explore new
                 places, cultures, cuisines, traditions, and ways of living.
               </p>
-              <button className="w-full px-5 py-3 bg-white text-slate-800 rounded-md">
+              <Link
+                to="/fleet"
+                className="w-full inline-block text-center px-5 py-3 bg-white text-slate-800 rounded-md"
+              >
                 Rent Car
-              </button>
+              </Link>
             </div>
           </div>
           <div className="w-full md:w-1/2">

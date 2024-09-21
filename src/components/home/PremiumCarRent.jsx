@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PremiumCarRent = () => {
   return (
@@ -28,13 +29,14 @@ const PremiumCarRent = () => {
           >
             Premium Car Rental
           </h1>
-          <button
+          <Link
+            to="/fleet"
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="mt-3 px-2 py-1 md:px-5 md:py-3 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
+            className="mt-3 inline-block px-2 py-1 md:px-5 md:py-3 bg-gradient-to-l from-[#FBBB04] to-[#daa003] text-white rounded-md shadow-lg"
           >
             Let's Ride With Us
-          </button>
+          </Link>
         </div>
       </div>
     </div>
