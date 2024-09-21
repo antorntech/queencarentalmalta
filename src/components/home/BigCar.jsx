@@ -19,7 +19,7 @@ const BigCar = () => {
         {/* Image Section with Responsive Absolute Positioning */}
         <div className="absolute top-[80px] md:top-[100px] lg:top-[125px] left-1/2 transform -translate-x-1/2 w-full">
           <div className="max-w-screen-xl mx-auto">
-            <div className="w-full p-5 md:p-10 py-6 md:py-12">
+            <div className="w-full p-5 md:p-10 py-6 md:py-12 overflow-hidden">
               <img
                 src="/images/bigcar.png"
                 alt="Car Image"

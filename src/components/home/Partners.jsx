@@ -25,7 +25,7 @@ const Partners = () => {
 
   return (
     <div
-      className="bg-cover bg-center px-5 h-[85vh] md:h-[60vh]"
+      className="bg-cover bg-center px-5 h-[100vh] md:h-[60vh]"
       style={{ backgroundImage: `url('/images/partners-bg.png')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full relative animate__animated animate__fadeInUp">
@@ -147,32 +147,32 @@ const Partners = () => {
               <img
                 src="/images/partners1.png"
                 alt="Nissan"
-                className="w-full h-full p-3"
+                className="w-full h-full p-3 object-contain"
               />
               <img
                 src="/images/partners2.png"
                 alt="Toyota"
-                className="w-full h-full p-3"
+                className="w-full h-full p-3 object-contain"
               />
               <img
                 src="/images/partners3.png"
                 alt="Kia"
-                className="w-full h-full p-3"
+                className="w-full h-full p-3 object-contain"
               />
               <img
                 src="/images/partners4.png"
                 alt="Hyundai"
-                className="w-full h-full p-3"
+                className="w-full h-full p-3 object-contain"
               />
               <img
                 src="/images/partners5.png"
                 alt="Citroën"
-                className="w-full h-full p-3"
+                className="w-full h-full p-3 object-contain"
               />
               <img
                 src="/images/partners6.png"
                 alt="Peugeot"
-                className="w-full h-full p-3"
+                className="w-full h-full p-3 object-contain"
               />
             </div>
           </div>
