@@ -33,17 +33,13 @@ const FAQ = () => {
   return (
     <div className="w-full px-5 overflow-hidden">
       <div className="max-w-screen-xl mx-auto py-8">
-        <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
+        <div className="w-full">
           <p className="text-2xl md:text-5xl font-bold"> Frequently Asked</p>
           <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#FBBB04] via-[#FBBB04] to-[#daa003] inline-block text-transparent bg-clip-text">
             Questions
           </p>
         </div>
-        <div
-          className="space-y-4 mt-5"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <div className="space-y-4 mt-5">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-200">
               <button
