@@ -8,6 +8,8 @@ import Loader from "../loaders/Loader";
 
 const Fleet = () => {
   const { data, loading, error } = useGetData("fleets");
+  const { data: locations } = useGetData("locations");
+  console.log(locations);
 
   const [formData, setFormData] = useState({
     pickupLocation: "",
@@ -271,8 +273,11 @@ const Fleet = () => {
                   <option value="" disabled>
                     Select Location
                   </option>
-                  <option value="location1">Location 1</option>
-                  <option value="location2">Location 2</option>
+                  {locations.map((location) => (
+                    <option key={location.name} value={location.address}>
+                      {location.name}
+                    </option>
+                  ))}
                 </select>
               </div>
 
@@ -291,8 +296,11 @@ const Fleet = () => {
                   <option value="" disabled>
                     Select Location
                   </option>
-                  <option value="location1">Location 1</option>
-                  <option value="location2">Location 2</option>
+                  {locations.map((location) => (
+                    <option key={location.name} value={location.address}>
+                      {location.name}
+                    </option>
+                  ))}
                 </select>
               </div>
 

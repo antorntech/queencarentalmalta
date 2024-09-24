@@ -18,7 +18,7 @@ const useGetData = (endpoint) => {
         }
 
         const result = await response.json();
-        setData(result.data || result);
+        setData(result.data || []);
       } catch (err) {
         setError(err.message || "Something went wrong!");
       } finally {
